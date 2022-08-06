@@ -4,3 +4,24 @@ margin: 0;
 padding: 0;
 display: flex;
 }
+
+.myLogo
+{
+    display: flex;
+    background-color: blanchedalmond;
+    justify-content: center;
+    width: 100%;
+}
+.pictureSide
+{
+width: 40vw;
+height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.rightSide
+{
+    padding-top: 150px;
+padding-left: 20px;
+}
