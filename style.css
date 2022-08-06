@@ -8,7 +8,9 @@ display: flex;
 .myLogo
 {
     display: flex;
-    background-color: blanchedalmond;
+    flex-wrap: row wrap;
+    background-color: rgba(0, 0, 0, .3);
+    color: white;
     justify-content: center;
     width: 100%;
 }
@@ -24,4 +26,38 @@ align-items: center;
 {
     padding-top: 150px;
 padding-left: 20px;
+}
+.row
+{
+    display: flex;
+}
+.input
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+input
+{
+    width: 20em;
+    height: 2em;
+}
+button
+{
+margin-top: 20px;
+margin-left: 10px;
+padding: 10px;
+color: blueviolet;
+background-color: black;
+border-color: blueviolet;
+border: 2px solid;
+font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+input:focus
+{
+    border: green;
 }
